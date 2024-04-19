@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LLR Reg form</title>
+</head>
+<body>
+    <form action="main.py" method="post">
+        <h2>LLR Registration form</h2>
+        <label for="nm">Name:</label>
+        <input type="text" name="x" id="nm">
+        <br><br>
+
+        <label for="age">Age:</label>
+        <input type="number" name="age" id="age">
+
+        <br><br>
+
+        <lable for="dob">D.O.B:</lable>
+        <input type="date" name="dob" id="dob">
+        <br><br>
+
+        <label for="em">Email:</label>
+        <input type="email" name="email" id="em">
+        
+        <br><br>
+        <p>Gender:</p>
+        <input type="radio" name="Gender" id="ma">
+        <label for="ma">Male</label>
+        <input type="radio" name="Gender" id="fe">
+        <label for="fe">Female</label>
+        <br><br>
+        <P>Select Type of Vehicle:</P>
+        <input type="checkbox" name="Vehicle" id="2Wh">
+        <label for="2Wh">Two Wheeler</label>
+        <input type="checkbox" name="Vehicle" id="4Wh">
+        <label for="4Wh">Four Wheeler</label>
+        <br><br>
+        <select name="Vehicles" id="vehicle">
+            <optgroup label="Two Wheeler">
+                <option value="RE">Royal Enfield</option>
+                <option vale="k">KTM</option>
+                <option value="D">Duke</option>
+            </optgroup>
+            <optgroup label="Four wheeler">
+                <option value="B">Benz</option>
+                <option value="P">Punch</option>
+                <option value="k">Kia</option>
+            </optgroup>
+        </select>
+          <br><br>
+        <input type="submit" value="submit">
+
+    </form>
+</body>
+</html>
