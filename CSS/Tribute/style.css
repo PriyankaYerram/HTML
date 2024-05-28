@@ -1,0 +1,14 @@
+body
+{
+background-image: url("./bgimg.avif");
+background-repeat: no-repeat;
+background-size: cover;
+font-style: oblique;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+text-shadow: 2px 2px 2px grey ;
+}
+img
+{
+ height: 300px;
+ width: 300px;
+}
