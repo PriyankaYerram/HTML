@@ -5,7 +5,12 @@ background-repeat: no-repeat;
 background-size: cover;
 font-style: oblique;
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-text-shadow: 2px 2px 2px grey ;
+/* text-shadow: 2px 2px 2px grey ; */
+}
+h2
+{
+  text-decoration: underline wavy ;
+  text-emphasis: '*';
 }
 img
 {

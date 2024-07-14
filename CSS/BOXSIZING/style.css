@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+}
+.main
+{
+ 
+ background-color: aquamarine;
+margin: 0%;
+
+}
+.child
+{
+    height: 70px;
+    /* background-color:peachpuff; */
+    
+    width:70px;
+    padding: 20px;
+    border-radius: 50% ;
+}
+#one
+{
+ background-color: red;
+ margin: 5px;
+}
+#two
+{
+ background-color: orange;
+ margin: 5px;
+}
+#three
+{
+ background-color: green;
+}
+#four
+{
+    border-style: solid;
+    background-color: black;
+    margin: 0px;
+    height: 150px;
+    width: 10px;
+    margin-left: 30px;
+    
+}
